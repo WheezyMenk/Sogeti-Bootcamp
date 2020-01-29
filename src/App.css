@@ -13,11 +13,15 @@
 .directory-entry{
   background-color: lightcyan;
   border-radius: 5px;
+  align-items: center;
+
   
 }
 .contact-info{
   background-color:lightcyan;
-  width: 25px;
+  width: 150px;
+  height: 100px;
+  font-size: xx-small;
 }
 
 @media (prefers-reduced-motion: no-preference) {
