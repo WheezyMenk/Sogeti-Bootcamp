@@ -33,21 +33,20 @@ class App extends React.Component {
                 <img className="mr-3 directory-image" src = {employee.imageURL}  alt="..."/>
                 <div className="media-body">
                 <h5 className="mt-0" key = {index}> {employee.name}</h5> 
-                  <div className="media col-12">
-                  
-                    <h6 className="mt-0 col6 ml-1" key = {index}> {employee.name} is part of Sogeti's January 2020 class. 
+           
+                    <h6 className="mt-0 " key = {index}> {employee.name} is part of Sogeti's January 2020 class. 
                     {employee.gender==="M" ? "He":"She"} is working as a {employee.position} in our {employee.practice} practice. 
                     {employee.name} located in {employee.location}. </h6>
                   
-                    <ul className="list-group col-6 ml-1 list-group-flush contact-info" > 
+                    <ul className="list-group list-group-flush" > 
                       Contact Information
                       <li className="list-group-item " key = {index}>{employee.email}</li>
-                      <li className="list-group-item " key = {index}>{employee.phone}</li>
                       <li className="list-group-item " key = {index}>{employee.gitHub}</li>
                     
                     </ul>
-                  </div>
-                                  
+                
+              
+                                
                 </div>
               </div>
               )
