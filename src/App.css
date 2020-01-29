@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+.directory-image{
+  width:250px;
+  border-radius:10px;
+}
+.directory-entry{
+  background-color: lightcyan;
+  border-radius: 5px;
+  
+}
+.contact-info{
+  background-color:lightcyan;
+  width: 25px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
